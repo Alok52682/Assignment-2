@@ -197,3 +197,61 @@ main {
 #blog-link {
     background-color: #DD0000;
 }
+
+/*---------------
+   Footer styles 
+-----------------*/
+footer {
+    height: 444px;
+    background-color: #161616;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-headding {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 120px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.turms {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.turms a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media p a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 40px;
+}
