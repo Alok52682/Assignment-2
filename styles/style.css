@@ -1,0 +1,98 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=PT+Serif&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+
+}
+
+/*------------------
+  main part styles 
+-------------------*/
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/*-----------------
+   Banner styles 
+-------------------*/
+.top-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 1321px;
+    background: #161616;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.banner-info {
+    width: 531px;
+    /* margin: 111px 24px 111px 106px; */
+}
+
+.topbanner-headding {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.topbanner-discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+
+.live-link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 56px;
+    border-radius: 5px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.live-link p a {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    padding: 16px 25px;
+}
+
+@keyframes example {
+    0% {
+        background-color: #DD0000;
+        width: 187px;
+    }
+
+    50% {
+        background-color: orangered;
+        width: 250px;
+    }
+
+    100% {
+        background-color: #DD0000;
+        width: 187px;
+    }
+
+}
+
+.banner-image img {
+    width: 581px;
+    height: 613px;
+}
