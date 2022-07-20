@@ -295,6 +295,12 @@ footer {
         width: 100%;
     }
 
+    .topbanner-discription p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .middle-section {
         flex-direction: column;
         align-items: center;
