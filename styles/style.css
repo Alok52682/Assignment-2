@@ -163,6 +163,18 @@ main {
     /* height: 175px; */
 }
 
+#background {
+    background-color: #161616;
+}
+
+.clubs {
+    background-color: rgb(246, 41, 41);
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #161616;
+    border-top-right-radius: 60% 100%;
+}
+
 .team {
     display: flex;
     justify-content: space-evenly;
