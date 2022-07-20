@@ -163,6 +163,13 @@ main {
     /* height: 175px; */
 }
 
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .transfer input[type=button] {
     border: 1px solid #161616;
     border-radius: 5px;
@@ -194,7 +201,7 @@ main {
     color: rgba(22, 22, 22, 0.7);
 }
 
-#blog-link {
+#current-link {
     background-color: #DD0000;
 }
 
