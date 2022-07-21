@@ -172,20 +172,21 @@ main {
 }
 
 #background {
-    background-color: #161616;
+    background-color: rgb(155, 153, 153);
 }
 
 .clubs {
-    background-color: rgb(246, 41, 41);
+    background-color: #FFFFFF;
     margin: 20px;
     padding: 20px;
     border: 1px solid #161616;
-    border-top-right-radius: 60% 100%;
+    border-top-right-radius: 100% 100%;
+    line-height: 40px;
 }
 
 
 .club {
-    color: #FFFFFF;
+    color: #161616;
     font-weight: 700;
 }
 
